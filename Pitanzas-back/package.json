@@ -1,0 +1,44 @@
+{
+  "name": "GettingStartedNodeJs",
+  "version": "0.0.0",
+  "description": "GettingStartedNodeJs",
+  "main": "./deploy/server/server.js",
+  "scripts": {
+    "start": "node deploy/server/server.js",
+    "gulp": "./node_modules/.bin/gulp",
+    "gulp_debug": "./node_modules/.bin/gulp debug",
+    "transpilacion": "./node_modules/.bin/gulp build"
+  },
+  "author": {
+    "name": "miguel",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "gulp-concat": "^2.6.0",
+    "jade": "*",
+    "jsonwebtoken": "^6.2.0",
+    "log4js": "^0.6.37",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.17",
+    "mongoose-currency": "^0.2.0",
+    "node-inspector": "^0.12.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "serve-favicon": "~2.3.0",
+    "traceback": "^0.3.1"
+  },
+  "devDependencies": {
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript": "2.10.0",
+    "validator": "^5.4.0"
+  }
+}

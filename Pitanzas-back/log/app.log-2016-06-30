@@ -1,0 +1,143 @@
+[2016-06-30 00:48:08.159] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:48:08.257] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:48:09.625] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:48:09.629] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:48:09.658] [INFO] server - Levantado server :: listening port 3000  => pid  9660
+[2016-06-30 00:48:09.673] [INFO] server - Levantado server :: listening port 3000  => pid  4224
+[2016-06-30 00:48:09.712] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:48:09.749] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:48:09.755] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:48:09.780] [INFO] server - Levantado server :: listening port 3000  => pid  9768
+[2016-06-30 00:48:09.807] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:48:09.854] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:48:09.873] [INFO] server - Levantado server :: listening port 3000  => pid  8948
+[2016-06-30 00:48:09.889] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:48:17.890] [DEBUG] user-services - saveUser
+[2016-06-30 00:48:17.891] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:48:17.891] [ERROR] validations/user-service - El formato de edad no es correcto
+[2016-06-30 00:48:17.894] [ERROR] server-config - El formato de edad no es correcto
+[2016-06-30 00:48:17.905] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 45 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:48:24.016] [DEBUG] user-services - saveUser
+[2016-06-30 00:48:24.016] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:48:24.028] [ERROR] server-config - La edad es obligatoria
+[2016-06-30 00:48:24.030] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 34 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:48:30.801] [DEBUG] user-services - saveUser
+[2016-06-30 00:48:30.801] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:48:30.801] [ERROR] server-config - Cannot read property 'toString' of undefined
+[2016-06-30 00:48:30.803] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 56 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:49:11.004] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:49:11.078] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:49:12.372] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:49:12.403] [INFO] server - Levantado server :: listening port 3000  => pid  3532
+[2016-06-30 00:49:12.433] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:49:12.447] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:49:12.448] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:49:12.479] [INFO] server - Levantado server :: listening port 3000  => pid  3036
+[2016-06-30 00:49:12.480] [INFO] server - Levantado server :: listening port 3000  => pid  9256
+[2016-06-30 00:49:12.503] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:49:12.504] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:49:12.507] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:49:12.528] [INFO] server - Levantado server :: listening port 3000  => pid  9136
+[2016-06-30 00:49:12.538] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:27.585] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:50:27.647] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:28.979] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:50:28.982] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:50:29.007] [INFO] server - Levantado server :: listening port 3000  => pid  9692
+[2016-06-30 00:50:29.018] [INFO] server - Levantado server :: listening port 3000  => pid  7152
+[2016-06-30 00:50:29.043] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:29.043] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:29.066] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:50:29.069] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:50:29.092] [INFO] server - Levantado server :: listening port 3000  => pid  8988
+[2016-06-30 00:50:29.092] [INFO] server - Levantado server :: listening port 3000  => pid  2176
+[2016-06-30 00:50:29.107] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:29.110] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:50:31.374] [DEBUG] user-services - saveUser
+[2016-06-30 00:50:31.376] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:50:31.378] [ERROR] server-config - El formato de edad no es correcto
+[2016-06-30 00:50:31.386] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 45 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:50:38.843] [DEBUG] user-services - saveUser
+[2016-06-30 00:50:38.843] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:50:38.844] [ERROR] server-config - Cannot read property 'toString' of undefined
+[2016-06-30 00:50:38.846] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 56 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:51:25.121] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:25.200] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:26.588] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:26.617] [INFO] server - Levantado server :: listening port 3000  => pid  8708
+[2016-06-30 00:51:26.639] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:26.664] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:26.685] [INFO] server - Levantado server :: listening port 3000  => pid  6868
+[2016-06-30 00:51:26.710] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:26.755] [DEBUG] user-services - saveUser
+[2016-06-30 00:51:26.756] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:51:26.756] [ERROR] validations/user-service - Aqui  null
+[2016-06-30 00:51:26.759] [ERROR] server-config - Cannot read property 'toString' of undefined
+[2016-06-30 00:51:26.760] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:26.771] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 56 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:51:26.797] [INFO] server - Levantado server :: listening port 3000  => pid  6828
+[2016-06-30 00:51:26.826] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:26.881] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:26.907] [INFO] server - Levantado server :: listening port 3000  => pid  7668
+[2016-06-30 00:51:26.930] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:43.638] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:43.700] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:45.161] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:45.191] [INFO] server - Levantado server :: listening port 3000  => pid  8628
+[2016-06-30 00:51:45.191] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:45.220] [INFO] server - Levantado server :: listening port 3000  => pid  6760
+[2016-06-30 00:51:45.224] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:45.249] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:45.251] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:45.254] [INFO] server - Levantado server :: listening port 3000  => pid  3220
+[2016-06-30 00:51:45.278] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:45.365] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:51:45.381] [INFO] server - Levantado server :: listening port 3000  => pid  1196
+[2016-06-30 00:51:45.392] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:51:48.160] [DEBUG] user-services - saveUser
+[2016-06-30 00:51:48.163] [DEBUG] validations/user-service - saveUser
+[2016-06-30 00:51:48.163] [ERROR] validations/user-service - Aqui  null
+[2016-06-30 00:51:48.166] [ERROR] server-config - La edad es obligatoria
+[2016-06-30 00:51:48.175] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 34 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-30 00:52:42.863] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:42.955] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:44.353] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:44.382] [INFO] server - Levantado server :: listening port 3000  => pid  4584
+[2016-06-30 00:52:44.385] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:44.412] [INFO] server - Levantado server :: listening port 3000  => pid  288
+[2016-06-30 00:52:44.414] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:44.436] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:44.440] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:44.464] [INFO] server - Levantado server :: listening port 3000  => pid  364
+[2016-06-30 00:52:44.477] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:44.491] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:44.509] [INFO] server - Levantado server :: listening port 3000  => pid  8632
+[2016-06-30 00:52:44.527] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:56.806] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:56.865] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:58.214] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:58.239] [INFO] server - Levantado server :: listening port 3000  => pid  3220
+[2016-06-30 00:52:58.264] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:58.275] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:58.288] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:58.293] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:52:58.299] [INFO] server - Levantado server :: listening port 3000  => pid  1196
+[2016-06-30 00:52:58.321] [INFO] server - Levantado server :: listening port 3000  => pid  8968
+[2016-06-30 00:52:58.323] [INFO] server - Levantado server :: listening port 3000  => pid  6504
+[2016-06-30 00:52:58.337] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:58.345] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:52:58.348] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:55:02.801] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:55:02.861] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:55:04.263] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:55:04.288] [INFO] server - Levantado server :: listening port 3000  => pid  6344
+[2016-06-30 00:55:04.323] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:55:04.347] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:55:04.368] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:55:04.377] [INFO] server - Levantado server :: listening port 3000  => pid  9536
+[2016-06-30 00:55:04.400] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:55:04.401] [INFO] server - Levantado server :: listening port 3000  => pid  7056
+[2016-06-30 00:55:04.421] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-06-30 00:55:04.435] [INFO] server - Configurando server para entorno DEV
+[2016-06-30 00:55:04.453] [INFO] server - Levantado server :: listening port 3000  => pid  7892
+[2016-06-30 00:55:04.468] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft

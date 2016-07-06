@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [    
+         {
+             //para poder depurar js es imprescindible generar sourcemaps e indicarle el outdir. PAra
+             //ello se utiliza el gulp-sourcemaps en el gulp. Si no, no debugea
+             /*
+              * Para hacer attach, primero hay que generar las sourcemaps que en realidad es 
+              * el código ts que se escribe en el .map generado (churro) Por ello hay que arrancar primeor 
+              * la aplicación en debug (se pone en el nodemon de gulpfile.js exec: 'node --debug', se abre por el 5858)
+              * Se genran las sourcemap en el gulpfile (mirar la tarea typescript creada)
+              * y finalmente ejecutamos este launcher.
+              */
+            "name": "ATTACH GettingStartedNodeJs",
+            "type": "node",
+            "request": "attach",
+            "port": 5861,
+            "stopOnEntry": true,
+            "smartStep": true,
+            //significa que hay sourcemaps generadas, en outDir le decimos donde se generan (carpeta deploy)
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/deploy/server"
+        },{
+            //para poder depurar js es imprescindible tener activadas las sourcemaps e indicarle el outdir. PAra
+             //ello se utiliza el gulp-sourcemaps en el gulp. Si no, no debugea
+            "name": "Launch GettingStartedNodeJs",
+            "type": "node",
+            "request": "launch",
+            //este será el comando que quiero que se lance, en este caso el programa,
+           // "program": "${workspaceRoot}/deploy/server/server.js",
+           "program": "${workspaceRoot}/deploy/server/services/user-service.js",
+            "stopOnEntry": true,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            //esta tarea se define en el task.json que está en .vscode
+            //"preLaunchTask": "Build debug local",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/deploy/server"
+        }
+    ]
+}

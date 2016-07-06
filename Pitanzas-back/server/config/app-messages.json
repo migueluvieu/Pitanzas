@@ -1,0 +1,13 @@
+{
+    "user.err.existe" : "El usuario existe en el sistema",
+    "user.err.noExiste" : "El usuario no existe en el sistema",
+    "user.err.format.id" : "El formato de id no es correcto",
+    "user.err.req.name" : "El nombre es obligatorio",
+    "user.err.req.email" : "El email es obligatorio",
+    "user.err.req.id" : "El id es obligatorio",
+    "user.err.format.email" : "El formato de id no es correcto",
+    "user.err.instancia" : "Se debe utilizar método static getInstance()",
+    "user.err.req.age" : "La edad es obligatoria",
+    "user.err.format.age" : "El formato de edad no es correcto"
+    
+}

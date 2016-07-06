@@ -1,0 +1,40 @@
+[2016-07-03 18:52:50.910] [INFO] server - Configurando server para entorno DEV
+[2016-07-03 18:52:51.024] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-07-03 18:52:55.260] [INFO] server - Configurando server para entorno DEV
+[2016-07-03 18:52:55.260] [INFO] server - Configurando server para entorno DEV
+[2016-07-03 18:52:55.260] [INFO] server - Configurando server para entorno DEV
+[2016-07-03 18:52:55.260] [INFO] server - Configurando server para entorno DEV
+[2016-07-03 18:52:55.290] [INFO] server - Levantado server :: listening port 3000  => pid  10488
+[2016-07-03 18:52:55.294] [INFO] server - Levantado server :: listening port 3000  => pid  6896
+[2016-07-03 18:52:55.296] [INFO] server - Levantado server :: listening port 3000  => pid  8440
+[2016-07-03 18:52:55.308] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-07-03 18:52:55.317] [INFO] server - Levantado server :: listening port 3000  => pid  10460
+[2016-07-03 18:52:55.317] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-07-03 18:52:55.330] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-07-03 18:52:55.341] [INFO] server - Conectado a la BBDD mongodb://localhost:27017/Balusoft
+[2016-07-03 19:03:00.851] [DEBUG] user-services - saveUser
+[2016-07-03 19:03:00.852] [DEBUG] validations/user-service - saveUser
+[2016-07-03 19:03:00.870] [DEBUG] user-dao - findFilter { name: 'ddd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:00.882] [DEBUG] user-dao - create { name: 'ddd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:00.906] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 173 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[2016-07-03 19:03:03.283] [DEBUG] user-services - saveUser
+[2016-07-03 19:03:03.283] [DEBUG] validations/user-service - saveUser
+[2016-07-03 19:03:03.284] [DEBUG] user-dao - findFilter { name: 'ddd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:03.288] [ERROR] server-config - El usuario existe en el sistema
+[2016-07-03 19:03:03.290] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[2016-07-03 19:03:10.564] [DEBUG] user-services - getUsers
+[2016-07-03 19:03:10.564] [DEBUG] user-dao - findAll
+[2016-07-03 19:03:10.570] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 175 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[2016-07-03 19:03:31.387] [DEBUG] user-services - saveUser
+[2016-07-03 19:03:31.387] [DEBUG] validations/user-service - saveUser
+[2016-07-03 19:03:31.387] [DEBUG] user-dao - findFilter { name: 'ddrrd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:31.388] [DEBUG] user-dao - create { name: 'ddrrd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:31.392] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 175 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[2016-07-03 19:03:39.893] [DEBUG] user-services - saveUser
+[2016-07-03 19:03:39.894] [DEBUG] validations/user-service - saveUser
+[2016-07-03 19:03:39.896] [DEBUG] user-dao - findFilter { name: 'ddrrrrrd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:39.898] [DEBUG] user-dao - create { name: 'ddrrrrrd', age: '11', email: 'lalala@lalal11.com' }
+[2016-07-03 19:03:39.901] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 178 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[2016-07-03 19:03:44.902] [DEBUG] user-services - getUsers
+[2016-07-03 19:03:44.902] [DEBUG] user-dao - findAll
+[2016-07-03 19:03:44.907] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 530 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
