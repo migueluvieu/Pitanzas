@@ -1,0 +1,26 @@
+<ion-view  id="lista_compra" has-header="false">
+    <ion-nav-title>Lista de {{tipoAlimento}} ({{alimentosPorComprar}})</ion-nav-title>
+ 
+  <ion-content class='mi-ion-content' > 
+
+  <div class="list card card-activa">     
+      <div class="card mi-card" ng-repeat="alimento in listaCompra" 
+      ng-class="{'card card-inactiva': {{alimento.marcado}}}"
+      ng-click="marcar('{{alimento.id}}')"
+      on-hold="speak('{{alimento.nombre}}')"
+      >
+        <div class="item item-text-wrap">
+        <p>
+          {{alimento.nombre}}</p>        
+        </div>
+      </div> 
+
+    </div>        
+  </ion-content>
+  
+         
+ <ion-floating-menu menu-icon="ion-chevron-up"  menu-color="#28a54c" menu-open-color="#28a54c" menu-open-icon="ion-chevron-down"> 
+    <ion-floating-item icon="ion-plus" button-color="#28a54c"  click="openModal()"></ion-floating-item>
+    <ion-floating-item icon="ion-ios-trash" button-color="#28a54c" click="deleteChecks()"></ion-floating-item>
+ </ion-floating-menu>
+</ion-view>

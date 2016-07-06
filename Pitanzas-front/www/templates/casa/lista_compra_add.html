@@ -1,0 +1,22 @@
+<ion-modal-view class="ion-nifty-modal" >
+ <div class="ion-modal-content-custom"> 
+  <ion-content class="padding">
+    <form ng-submit="addAlimento()" name="alimentoForm" novalidate>
+      
+            <div class="item item-input-inset balanced">
+              <label class="item-input-wrapper">     
+                <input type="text" style="color:#28a54c;" placeholder="Introduce alimento..." 
+                 ng-model="alimento.nombre"  id="nombre" name="nombre" required>
+                 <p ng-show="alimentoForm.nombre.$required && !alimentoForm.nombre.$pristine">* Username must be an email address</p>
+              </label>         
+                <button ng-disabled="alimentoForm.$invalid" class="button button-outline button-small button-balanced  ion-checkmark-round" type="submit"></button>
+            </div>
+             
+    </form>
+    <div align='center'>
+      <button class="button button-small  button-balanced icon-left ion-close-round" ng-click='closeModal()'>Volver</button>
+      <button class="button button-small  button-balanced icon-left ion-mic-a" ng-click='record()'>Hablar</button>
+    </div>
+  </ion-content>
+ </div> 
+</ion-modal-view>

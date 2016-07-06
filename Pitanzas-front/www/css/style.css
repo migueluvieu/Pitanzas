@@ -1,0 +1,48 @@
+
+.card-activa .item{
+  background: #fff
+}
+.card-activa p{
+  color:#28a54c;
+  text-transform: capitalize
+}
+
+
+
+.card-inactiva .item{
+  background: lightgreen
+}
+.card-inactiva p{
+  text-decoration: line-through;
+  color: #fff
+}
+
+ .mymodal {  
+     width: 60%; 
+     height: 60%; 
+     top: 50%; 
+     left: 10%; 
+     right: 10%; 
+     bottom: 50%;
+  }
+
+  .transparent {
+background: transparent !important;
+}
+
+.MiBalanceado {
+  background: lightgreen
+}
+
+.colorBalanced {
+  color: lightgreen
+}
+
+.mi-card{
+  margin: 5px 5px 5px 5px;
+  
+}
+
+.mi-ion-content{
+  background-color: lightgreen;
+}

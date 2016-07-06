@@ -1,4 +1,4 @@
 {
     "SECRET_KEY" : "12345-67890-09876-54321",
-     "MONGO_URL" : "mongodb://uvieu:uvieu4@ds011755.mlab.com:15335/pitanzas"
+     "MONGO_URL" : "mongodb://uvieu:xxx@ds011755.mlab.com:15335/pitanzas"
 }

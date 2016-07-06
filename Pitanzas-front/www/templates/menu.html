@@ -1,0 +1,32 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-balanced" >
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" style="background-color:#33cd5f">
+    
+
+    <ion-content>
+      <ion-list>
+         <div class="item balanced" style="background-color:#33cd5f" align='center'>
+            <img src="img/logo.png" >
+            <h2 style = 'color: #fff;text-decoration: underline;'>Pitanzas v1.0</h2>
+            <p style = 'color: #FC3;'>Maneja la compra, comidas y cenas</p>
+          </div>
+        <ion-item menu-close ng-href="#/app/dashboard_casa">
+           <a class="button icon-left ion-android-list button-clear button-balanced">Panel Principal</a>
+        </ion-item>
+      </ion-list>
+      
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
