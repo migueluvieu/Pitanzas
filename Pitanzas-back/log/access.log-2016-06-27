@@ -15,7 +15,7 @@
 [2016-06-27 01:21:26.450] [INFO] http - ::1 - - "GET /users/576aaca49be80d7fb2f83c8f HTTP/1.1" 200 134 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-27 01:54:00.899] [WARN] http - ::1 - - "GET /users/576aaca49be80d7fb2f83c8f HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-27 01:58:35.833] [WARN] http - ::1 - - "GET /users/576aaca49be80d7fb2f83c8f HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
-[2016-06-27 01:58:38.384] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 2464 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-27 01:58:38.384] [INFO] http xxx- ::1 - - "GET /users HTTP/1.1" 200 2464 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-27 01:58:44.542] [WARN] http - ::1 - - "GET /users/576aaca49be80d7fb2f83c8f HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-27 02:03:33.218] [WARN] http - ::1 - - "GET /users/576aaca49be80d7fb2f83c8f HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-27 02:03:36.326] [WARN] http - ::1 - - "GET /users HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
