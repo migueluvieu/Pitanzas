@@ -18,7 +18,7 @@
 [2016-06-27 00:31:48.239] [DEBUG] app.js - Connected a la BBDD  mongodb://localhost:27017/Balusoft
 [2016-06-27 00:37:40.190] [DEBUG] app.js - Some debug messages
 [2016-06-27 00:37:40.286] [DEBUG] app.js - undefined
-[2016-06-27 00:37:40.287] [DEBUG] app.js - entorno  undefined
+[2016-06-27 00:37:40.287] xxcxc[DEBUG] app.js - entorno  undefined
 [2016-06-27 00:37:40.292] [DEBUG] app.js - Express server listening on port 3000
 [2016-06-27 00:37:40.307] [DEBUG] app.js - Connected a la BBDD  mongodb://localhost:27017/Balusoft
 [2016-06-27 00:39:21.648] [INFO] app.js - Comienza configuración de servidor, entorno  undefined
