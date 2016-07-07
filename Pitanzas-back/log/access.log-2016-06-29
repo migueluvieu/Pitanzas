@@ -20,7 +20,7 @@
 [2016-06-29 00:48:38.469] [ERROR] http - ::1 - - "PUT /users HTTP/1.1" 500 29 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-29 00:48:46.570] [ERROR] http - ::1 - - "GET /users/576da4fcf2b2af480b3db56d HTTP/1.1" 500 29 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-29 00:48:57.979] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 4079 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
-[2016-06-29 00:49:05.196] [INFO] http - ::1 - - "GET /users/5772e0f253e685d4264d223c HTTP/1.1" 200 180 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
+[2016-06-29 00:49:05.196] [INFO]sss http - ::1 - - "GET /users/5772e0f253e685d4264d223c HTTP/1.1" 200 180 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-29 01:39:50.650] [INFO] http - ::1 - - "GET /users/5772e0f253e685d4264d223c HTTP/1.1" 200 180 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-29 01:39:57.672] [ERROR] http - ::1 - - "GET /users/5772e0f253e685d4264d223k HTTP/1.1" 500 32 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
 [2016-06-29 01:40:14.500] [ERROR] http - ::1 - - "GET /users/576da4fcf2b2af480b3db56d HTTP/1.1" 500 46 "" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
