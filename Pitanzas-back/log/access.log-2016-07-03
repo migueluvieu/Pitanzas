@@ -1,6 +1,0 @@
-[2016-07-03 19:03:00.906] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 173 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2016-07-03 19:03:03.290] [ERROR] http - ::1 - - "POST /users HTTP/1.1" 500 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2016-07-03 19:03:10.570] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 175 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2016-07-03 19:03:31.392] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 175 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2016-07-03 19:03:39.901] [INFO] http - ::1 - - "POST /users HTTP/1.1" 200 178 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
-[2016-07-03 19:03:44.907] [INFO] http - ::1 - - "GET /users HTTP/1.1" 200 530 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
