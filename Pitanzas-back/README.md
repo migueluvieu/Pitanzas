@@ -1,9 +1,8 @@
  
- # Lista de tareas NodeJS 
- Api Rest desarrollada en NodeJS(typescript) contra MongoDB
+ # Pitanzas Backend 
+ Api Rest desarrollada en NodeJS (typescript) contra MongoDB
  
  ## Deploy
-
 Se levanta servidor, transpilación de ts y reload con gulp (ponmeindo la tarea. Si no se pone nada, se tira la default)
 
 `gulp  o `gulp debug (para modo debug)
@@ -33,7 +32,6 @@ El despliegue está en la carpeta deploy. Allí estarán los js resultantes de l
 
 
 ## Variables de entorno
-
 Se pueden definir/utilizar vbles de entorno y leerlas en node con process.env
 Un ejemplo, definir si estamos en producción: 
 En windows primero haríamos 
@@ -47,8 +45,8 @@ y luego en node podemos referenciarlo con process.env.NODE_ENV
 lo típico para cargar properties en función del entorno
 
 
-/**** INSTALACION DE LOS *.d.ts   ******//
-Los .d.ts son las definiciones en typescript de los módulos js (express, mongodb,..) necesarias.
+## Instalación de los tipados (*.d.ts)
+Los *.d.ts son las definiciones en typescript de los módulos js (express, mongodb,..) necesarias.
 
 Primero hacemos las instalaciones de los módulos con el npm como el express, el mongo y luego 
 hay que instalar los *.d.ts Las almacenamos en la carpeta typings
@@ -77,7 +75,7 @@ y el gulp ya coge uno u otro en función de la vble de entorno process.env.NODE_
 Leer apartado VARIABLES DE ENTORNO. Valores posibles (PROD o DEV).
 El fichero lo lleva a la carpeta server/config con el nombre app-config.json y lo lleva a deploy
 
-/*** LOG4JS ****/
+## Instalación Log4js
 Se utiliza log4js para los logs (https://github.com/nomiddlename/log4js-node). 
   La configuración está en server/config/log4js.json. Se definen 4 appender:
  - consola=> pinta todo los logger.info, logger.debug, logger.error,..  por consola
@@ -88,7 +86,6 @@ Se utiliza log4js para los logs (https://github.com/nomiddlename/log4js-node).
 otro 
 
 ## Debug VS Code
-
 Al hacer las transpilación de ts a js, se genera la carpeta deploy donde están los archivos generados y que será lo que se 
 suba a prod. Ahora para hacer debug de los ts hay que crear sourcemaps (mirar el gulpfile.js, tarea typescript).
 En la tanspilación se genera por cada ts-> un js y un js.map. El js.map contiene un churro que se supone que es el código del ts. 
