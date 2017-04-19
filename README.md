@@ -5,7 +5,8 @@
 - Persistencia MongoDB
 - Deplegada en AWS, EC2
 
-<p align="center">
-  <span><img src="/screenshots/1.png" /></span>
-   <span><img src="/screenshots/2.png" /></span>
+## Screenshots
+<p>
+  <img src="/screenshots/1.png" width="200px"/>
+  <img src="/screenshots/2.png" width="200px"/>
 </p>
