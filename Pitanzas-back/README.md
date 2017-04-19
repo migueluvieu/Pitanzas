@@ -1,4 +1,8 @@
-﻿/**** LEVANTAR SERVIDOR ***/
+ 
+ # Lista de tareas NodeJS 
+ Api Rest desarrollada en NodeJS(typescript) contra MongoDB
+ 
+ ## Deploy
 
 Se levanta servidor, transpilación de ts y reload con gulp (ponmeindo la tarea. Si no se pone nada, se tira la default)
 
@@ -28,7 +32,7 @@ Para entorno producción tiraríamos el script start aumque con tema de VARIABLE
 El despliegue está en la carpeta deploy. Allí estarán los js resultantes de la transpilación.
 
 
-/*** VARIABLES DE ENTORNO **/ 
+## Variables de entorno
 
 Se pueden definir/utilizar vbles de entorno y leerlas en node con process.env
 Un ejemplo, definir si estamos en producción: 
@@ -61,7 +65,7 @@ typings install dt~node --global --save
 typings install dt~mongodb --global --save
 ...
 
-/*** CONFIGURACION ****/
+## Configuración
 La configuración está en un fichero externo en la carpeta raiz/config. 
 Hay un fichero por entorno:
 raiz
@@ -83,7 +87,7 @@ Se utiliza log4js para los logs (https://github.com/nomiddlename/log4js-node).
  * se define en todos los appender la rotación, permitiendo solo 3 logs (va borrando), un max de 10 mb y cuando pasa de 10MB, renombra el fichero con la fecha
 otro 
 
-/*** DEBUGEAR CON EL VS CODE ***/
+## Debug VS Code
 
 Al hacer las transpilación de ts a js, se genera la carpeta deploy donde están los archivos generados y que será lo que se 
 suba a prod. Ahora para hacer debug de los ts hay que crear sourcemaps (mirar el gulpfile.js, tarea typescript).
@@ -146,33 +150,7 @@ Ahora mismo contiene esto:
     ]
 }
 
-La ñapa! el problema es que cuando se debugea, el fichero ts que aparece es uno generado a partir del sourcemaps, 
-NO es el fichero ts de la aplicación que podemos abrir (el server/app.ts por ejemplo), de hecho pone "inlined content from sourcemap". 
-Entonces como no es uno generado a partir del churro sourcemap, no se como poner los breakpoints.
-Lo que hago es lo siguiente. Por ejemplo, para poner traza en el app.ts, 
-* En "Launch GettingStartedNodeJs" pongo el app.js en el program
-  "program": "${workspaceRoot}/deploy/server/app.js",
-  y le indique que se pare al entrar "stopOnEntry": true
-  Lanzo este launch y ya lo tengo dentro. Ahora marco un breakpoint y ese ya me queda guardado. Parar el launch.
- * Ahora ya debo arrancar el servidor en modo debug ( se ejecutaría `gulp debug` en prompt=> está preparado el gulp)
-  y una vez arrancado 
- * Por último lanzar el attach y ya me pararía en el app.ts. 
- * IMPORTANTE por defecto el puerto debug es 5858 pero desde que se instaló en cluster, se abre por varios así que hay que ir
-   probando hasta encontrar el puerto debug que atendió la patición. Normalemtneen debug se abre en los siguientes, lo pone la consola al arrancar (5858,5859,5860,..) 
 
- Por ejemplo para el user-service.ts. Lo mismo:
- En "Launch GettingStartedNodeJs" pongo el user-service.js en el program
-  "program": "${workspaceRoot}/deploy/server/services/user-service.js" 
-  "stopOnEntry": true
-  Lanzo este launch y ya lo tengo dentro. Ahora marco un breakpoint y ese ya me queda guardado. También me puedo entrar dentro del dao cuando se invoca y aprovechar a poner breakpoints también
-  o subir para ponerlos en el controller y evitar este paso para dao y controller. Parar el launch.
-  * Ahora ya debo arrancar el servidor en modo debug ( se ejecutaría `gulp debug` en prompt=> está preparado el gulp)
-  y una vez arrancado 
-  * Por último lanzar el attach y ya me pararía en el app.ts
-  * IMPORTANTE por defecto el puerto debug es 5858 pero desde que se instaló en cluster, se abre por varios así que hay que ir
-   probando hasta encontrar el puerto debug que atendió la patición. Normalemtneen debug se abre en los siguientes, lo pone la consola al arrancar (5858,5859,5860,..) 
-
- Pendiente volver a mirar el tema de sourcemaps para no tener que hacer esto.
 
 
 
