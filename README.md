@@ -4,3 +4,8 @@
 - Backend NodeJS - typescript.
 - Persistencia MongoDB
 - Deplegada en AWS, EC2
+
+<p align="center">
+  <span><img src="/screenshots/1.png" width="200px"/></span>
+   <span><img src="/screenshots/2.png" width="430px"/></span>
+</p>
