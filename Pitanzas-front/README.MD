@@ -1,5 +1,5 @@
 # Pitanzas Frontend
-Primera app con Ionic consumiendo api rest ofrecida por el backend  
+Primera app con Ionic1.1.1 consumiendo api rest ofrecida por el backend  
 
 ## Build
 ionic serve --lab
